@@ -12,6 +12,13 @@ Use Case
 
 Components
 ==========
+Datatype to represent valid regular expressions 
+Regex parser to get strings into that datatype 
+Datatype to represent NFA 
+Algorithm to convert regex to NFA 
+Datatype to represent DFA 
+Algorithm to convert NFA to minimal DFA 
+
 
 Effort Budget
 =============
