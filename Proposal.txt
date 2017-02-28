@@ -5,7 +5,7 @@ Regina Burd (rburd)
 
 Project Goal
 ============
-The goal of this project is to build a program that automatically derives NFA and minimal DFA representations of any inputted regular expression. This would ideally serve as a convenient way for computer scientists and students of automata theory to learn the manner in which regular languages can be computed/recognized by finite state machines. Time permitted, we would also add a tool to allow users to visualize the resulting machine. 
+The goal of this project is to build a program that automatically derives NFA and minimal DFA representations of any inputted regular expression. This would ideally serve as a convenient way for computer scientists and students of automata theory to learn the manner in which regular languages can be computed/recognized by finite state machines. Time permitting, we would also add a tool to allow users to visualize the resulting machine. 
 
 Use Case
 ========
