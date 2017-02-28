@@ -5,10 +5,27 @@ Regina Burd (rburd)
 
 Project Goal
 ============
+<<<<<<< HEAD
 The goal of this project is to build a program that automatically derives NFA and minimal DFA representations of any inputted regular expression. This would ideally serve as a convenient way for computer scientists and students of automata theory to study the manner in which regular languages can be computed/recognized by finite state machines. Time permitting, we would also add a tool to allow users to visualize the resulting machine. 
+=======
+The goal of this project is to build a program that automatically derives NFA
+and minimal DFA representations of any inputted regular expression. This would
+ideally serve as a convenient way for computer scientists and students of 
+automata theory to learn the manner in which regular languages can be 
+computed/recognized by finite state machines. Time permitting, we would also 
+add a tool to allow users to visualize the resulting machine.
+>>>>>>> dd3157ff4aec5704551372ecb18dbc03bb25c826
 
 Use Case
 ========
+The user would use the command line to input a regular expression. If it is 
+invalid, they will see an error message. If it is valid, they will see a text 
+representation of the resulting NFA and minimal DFA. The text representation
+will be a list of the states, symbols, start state, accepting states, and 
+transitions of the machine.
+
+If we are able to create the picture output of the DFA, it would be saved to
+a PNG or JPG file in the current directory.
 
 Components
 ==========
@@ -17,10 +34,44 @@ Regex parser to get strings into that datatype
 Datatype to represent NFA 
 Algorithm to convert regex to NFA 
 Datatype to represent DFA 
-Algorithm to convert NFA to minimal DFA 
-
+Algorithm to convert NFA to minimal DFA
+Optional component: means of visualizing DFA in a picture
 
 Effort Budget
 =============
+This is the combined effort budget assuming that we will be pair programming.
 
-*Add stuff on refactoring and debugging 
+2 hours: Representing regular expressions and parsing them from strings, 
+         taking into account that we will do some variant of this in a future
+         HW
+
+3 hours: Creating a datatype to represent an NFA
+
+5 hours: Writing the algorithm to convert a regex to an NFA
+
+3 hours: Testing/debugging the algorithm to convert a regex to an NFA
+
+3 hours: Creating a datatype to represent a DFA
+
+5 hours: Algorithm to convert from NFA to minimal DFA
+
+3 hours: Testing/debugging the algorithm to convert from NFA to DFA
+
+5 hours: Refactoring code
+
+2 hours: Documentation
+
+Total: 31 hours
+
+Optional visualization:
+
+2 hours: learning image library
+
+4 hours: writing algorithm for representing DFA as coordinates 
+         of shapes
+
+3 hours: testing the algorithm to create pictures of DFA
+
+2 hours: refactoring/documentation
+
+Extra time: 11 hours
